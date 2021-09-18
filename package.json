@@ -1,14 +1,15 @@
 {
   "name": "npm-package-pub-test",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imnotteixeira/npm-package-pub-test.git"
+    "url": "https://github.com/imnotteixeira/npm-package-pub-test.git"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/imnotteixeira/npm-package-pub-test#readme",
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0"
+    "@commitlint/config-conventional": "^13.1.0",
+    "semantic-release": "^18.0.0"
   }
 }
