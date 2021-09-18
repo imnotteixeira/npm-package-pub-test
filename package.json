@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/imnotteixeira/npm-package-pub-test/issues"
   },
-  "homepage": "https://github.com/imnotteixeira/npm-package-pub-test#readme"
+  "homepage": "https://github.com/imnotteixeira/npm-package-pub-test#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0"
+  }
 }
